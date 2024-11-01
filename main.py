@@ -6,6 +6,7 @@ def main():
     print(f"{num_words} words found in the document")
     chars_dict = get_chars_dict(text)
     sorted_items = sort_on(chars_dict)
+    print("--- Begin report of books/frankenstein.txt ---")
 
     for char, freq in sorted_items:
         print(f"The '{char}' character was found {freq} times")
