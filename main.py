@@ -17,7 +17,7 @@ def main():
     print(f"--- Begin report of {book_path} ---")
 
     for char, freq in sorted_items:
-        print(f"The '{char}' character was found {freq} times")
+        print(f"{char}: {freq}")
 
 
 
